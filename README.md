@@ -1,4 +1,4 @@
-# ESP32-C6 UI Panel  
+# ESP32-C6 UI Panel  - KOMMANDO
 A Zigbee touchscreen control panel for Home Assistant
 
 ---
