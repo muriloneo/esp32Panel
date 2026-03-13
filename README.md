@@ -178,7 +178,7 @@ If this project helps you, you can support development here:
 
 QR code:
 
-![Buy Me a Coffee QR](assets/images/buymeacoffee_kommando_qr.png)
+<img src="assets/images/buymeacoffee_kommando_qr.png" alt="Buy Me a Coffee QR" width="165" />
 
 ---
 
