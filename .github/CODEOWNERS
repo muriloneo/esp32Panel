@@ -1,0 +1,17 @@
+# Default owner for the entire repository
+* @muriloneo
+
+# Firmware and embedded code
+/firmware/ @muriloneo
+
+# Integrations
+/home-assistant-blueprint/ @muriloneo
+/z2m-converter/ @muriloneo
+
+# Hardware design files
+/ki-kad/ @muriloneo
+
+# Documentation and assets
+/README.md @muriloneo
+/LICENSE @muriloneo
+/assets/ @muriloneo
