@@ -142,7 +142,7 @@ static void header_click_cb(lv_event_t *e)
     lv_slider_set_range(s_dimmer_slider, 0, 100);
     lv_slider_set_value(s_dimmer_slider, level_pct, LV_ANIM_OFF);
 
-    lv_label_set_text(s_dimmer_title, "Panel Brightness");
+    lv_label_set_text(s_dimmer_title, "Kommando Brightness");
     char value_text[16];
     snprintf(value_text, sizeof(value_text), "%d%%", level_pct);
     lv_label_set_text(s_dimmer_value, value_text);
@@ -257,7 +257,7 @@ void ui_panel_build(lv_display_t *disp)
     lv_obj_add_event_cb(hdr, header_click_cb, LV_EVENT_CLICKED, NULL);
 
     lv_obj_t *hdr_lbl = lv_label_create(hdr);
-    lv_label_set_text(hdr_lbl, LV_SYMBOL_HOME "  Home Assistant");
+    lv_label_set_text(hdr_lbl, LV_SYMBOL_HOME "  Kommando");
     lv_obj_set_style_text_color(hdr_lbl, lv_color_make(COLOR_HEADER_TEXT), LV_PART_MAIN);
     lv_obj_set_style_text_font(hdr_lbl, &lv_font_montserrat_14, LV_PART_MAIN);
     lv_obj_center(hdr_lbl);
